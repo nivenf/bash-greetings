@@ -1,6 +1,6 @@
 ---INSTALLATION GUIDE---
 
-1. Place friends.java and box.java files from the Java Project "bash-greetings" into your home directory
+1. Place friends.java and box.java files into your home directory
 
 2. Make a text file called "favorites.txt", place it into your home directory and add usernames every line
 
