@@ -40,5 +40,10 @@
 
 		rm users_online.txt
 
-		echo -e "\e[92m"
+		echo -e "\e[92m" # change this line if you want a different color
 		
+4. javac both friends.java and box.java
+
+5. Re-run your .profile file (source ~/.profile) or re-log in
+
+Made by Niven Francis
