@@ -1,6 +1,6 @@
 ---INSTALLATION GUIDE---
 
-1. Place friends.java and box.java files into your home directory
+1. Place friends.java, greeting.java, and box.java files into your home directory
 
 2. Make a text file called "favorites.txt", place it into your home directory and add usernames every line
 
@@ -42,7 +42,7 @@
 
 		echo -e "\e[92m" # change this line if you want a different color
 		
-4. javac both friends.java and box.java
+4. javac the three java files: friends.java, greeting.java, and box.java
 
 5. Re-run your .profile file (source ~/.profile) or re-log in
 
