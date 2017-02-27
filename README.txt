@@ -8,39 +8,39 @@
 
 3. Place the following code at the end:
 
-		clear
+clear
 
-		spo=$(date "+%H")
-		java greeting $spo > greet.txt
-		spo=$(whoami)
+spo=$(date "+%H")
+java greeting $spo > greet.txt
+spo=$(whoami)
 
-		printf " " > startup.txt
-		cat greet.txt >> startup.txt
+printf " " > startup.txt
+cat greet.txt >> startup.txt
 
-		printf " " >> startup.txt
+printf " " >> startup.txt
 
-		printf $spo >> startup.txt
+printf $spo >> startup.txt
 
-		printf " \n" >> startup.txt
-		printf " The current date is " >> startup.txt
-		date '+%B %d ' >> startup.txt
-		printf " It is currently " >> startup.txt
-		date '+%H:%M ' >> startup.txt
+printf " \n" >> startup.txt
+printf " The current date is " >> startup.txt
+date '+%B %d ' >> startup.txt
+printf " It is currently " >> startup.txt
+date '+%H:%M ' >> startup.txt
 
-		echo -e "\e[33m"
-		cat startup.txt | java box
+echo -e "\e[33m"
+cat startup.txt | java box
 
-		rm greet.txt
-		rm startup.txt
+rm greet.txt
+rm startup.txt
 
-		who | cut -d" " -f1 >> users_online.txt
+who | cut -d" " -f1 >> users_online.txt
 
-		echo -e "\e[96m"
-		java friends $spo | java box
+echo -e "\e[96m"
+java friends $spo | java box
 
-		rm users_online.txt
+rm users_online.txt
 
-		echo -e "\e[92m" # change this line if you want a different color
+echo -e "\e[92m" # change this line if you want a different color
 		
 4. javac the three java files: friends.java, greeting.java, and box.java
 
