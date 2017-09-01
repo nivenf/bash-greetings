@@ -16,8 +16,7 @@ public class friends {
 	private static String whoami = "";
 	
 	public static void main(String[] args) throws IOException {
-		//whoami = args[0];
-		whoami = "nivenf";
+		whoami = args[0];
 		
 		users = new HashSet<String>();
 		favs = new HashSet<String>();
