@@ -1,3 +1,5 @@
+# Bash Greetings
+
 ---INSTALLATION GUIDE---
 
 1. Place friends.java, greeting.java, and box.java files into your home directory
