@@ -1,5 +1,7 @@
 # Bash Greetings
 
+![alt text](https://scontent.fphx1-2.fna.fbcdn.net/v/t34.0-12/22091598_1413443542024931_1737732502_n.png?oh=2568936165ce25ec0dd6925ceac21df3&oe=59CFCC84)
+
 ---INSTALLATION GUIDE---
 
 1. Place friends.java, greeting.java, and box.java files into your home directory
@@ -44,8 +46,8 @@ rm users_online.txt
 
 echo -e "\e[92m" # change this line if you want a different color
 		
-4. javac the three java files: friends.java, greeting.java, and box.java
+5. javac the three java files: friends.java, greeting.java, and box.java
 
-5. Re-run your .profile file (source ~/.profile) or re-log in
+6. Re-run your .profile file (source ~/.profile) or re-log in
 
 Made by Niven Francis
